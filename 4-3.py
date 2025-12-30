@@ -16,6 +16,6 @@ if n<=2 or list(filter(lambda x:x>=100 ,score)):
     print("error")
 else:
     score.sort()
-    score=score[1:n-1]
+    score=score[1:n]
     print(f"result score:{sum(score)/n:.2f}")
     
