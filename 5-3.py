@@ -15,7 +15,7 @@ Created on Wed Dec 24 16:32:27 2025
 from random import randint, choice
 
 def everyStep(n):
-    half = n / 2
+    half = n // 2
     m = 1
     # 所有可能满足条件的取法
     possible = []
